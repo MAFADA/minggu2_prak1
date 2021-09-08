@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function (){
-    echo "2031710168 M. Afada Nur Saiva Syahira";
+    echo "NIM = 2031710168\nNama = M. Afada Nur Saiva Syahira";
 });
 
 Route::get('/articles/{id}', function ($id){
